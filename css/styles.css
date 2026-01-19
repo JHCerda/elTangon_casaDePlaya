@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%; 
+}
+
+header,footer {
+    background-color:whitesmoke;
+}
+
+.contenedor {
+    width: 100%;
+    padding: .5em;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.logo-header {
+    max-width: 200px;
+}
+.titulo-header {
+    text-align: center;
+    font-size: x-large;
+}
+.contactos {
+    display:block;
+}
+.telefonos, .redes {
+    justify-content: center;
+    padding: .5em 0;
+}
+.redes {
+    font-size: 2em;
+}
+
+.lista-footer {
+    display: block;
+}
+
+ul {
+    display:flex ;
+    gap: 35px;
+}
+
+li {
+    font-size: 1.2em;
+    list-style-type: none;
+    
+}
+
+img, button, li:hover {
+    color: blue;
+    cursor: pointer;
+
+}
+
+.btn-blue {
+    background-color: rgb(0, 102, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 8%;
+}
