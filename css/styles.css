@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%; 
+    box-sizing: border-box;
 }
 
 header,footer {
@@ -9,7 +10,7 @@ header,footer {
 
 .contenedor {
     width: 100%;
-    padding: .5em;
+    padding: .2em;
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -26,10 +27,58 @@ header,footer {
 }
 .telefonos, .redes {
     justify-content: center;
-    padding: .5em 0;
+    padding: .3em 0;
 }
 .redes {
     font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.principal {
+    display: flex;;
+}
+
+.articulo {
+    width: 260px;
+    background-color:beige;
+    justify-items: center;
+    text-align: justify;
+    margin: 0 10px;
+}
+
+.unidad-art {
+    padding: 10px;
+
+}
+
+.img-art {
+    width: 220px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.descripcion {
+    display: block;
+    margin: 10px;
+}
+
+.descripcion li {
+    font-size: medium;
+}
+
+.clima {
+    width: 180px;
+    height: 350px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin: 10px 0;
 }
 
 .lista-footer {
